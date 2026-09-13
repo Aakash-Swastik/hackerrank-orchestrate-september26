@@ -1,0 +1,22 @@
+{
+  "image_id": "image_04",
+  "related_event_id": "event_1700",
+  "document_metadata": {
+    "document_type": "delivery_receipt",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "item_bill", "value": 2854.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 2854.0,
+    "chosen_label": "item_bill",
+    "currency": "INR",
+    "confidence_score": 0.92,
+    "selection_reasoning": "Blinkit grocery delivery receipt. 13 items delivered to Jeevan Bhima Nagar. Item Bill confirmed as INR 2,854.00. Delivery fee and grand total rows are outside the visible image boundary — using only the confirmed visible Item Bill figure."
+  },
+  "extraction_status": "ok"
+}

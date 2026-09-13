@@ -1,0 +1,22 @@
+{
+  "image_id": "image_06",
+  "related_event_id": "event_3051",
+  "document_metadata": {
+    "document_type": "gst_invoice",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "total", "value": 1995.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 1995.0,
+    "chosen_label": "total",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "GST Tax Invoice from Blink Commerce (Grofers/Blinkit). Total amount including taxes printed as INR 1,995.00."
+  },
+  "extraction_status": "ok"
+}

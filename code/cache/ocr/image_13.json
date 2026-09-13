@@ -1,0 +1,22 @@
+{
+  "image_id": "image_13",
+  "related_event_id": "event_7941",
+  "document_metadata": {
+    "document_type": "ecommerce_order",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "total_paid", "value": 2298.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 2298.0,
+    "chosen_label": "total_paid",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "DailyObjects e-commerce order for tote bags. Total Paid printed as INR 2,298."
+  },
+  "extraction_status": "ok"
+}

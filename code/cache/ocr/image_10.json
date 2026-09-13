@@ -1,0 +1,22 @@
+{
+  "image_id": "image_10",
+  "related_event_id": "event_6033",
+  "document_metadata": {
+    "document_type": "gst_invoice",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "balance_due", "value": 79679.26, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 79679.26,
+    "chosen_label": "balance_due",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "GST Invoice for grocery/snacks (22 items). Balance Due / Total printed as INR 79,679.26."
+  },
+  "extraction_status": "ok"
+}

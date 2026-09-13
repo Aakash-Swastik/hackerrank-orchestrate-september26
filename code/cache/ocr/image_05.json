@@ -1,0 +1,22 @@
+{
+  "image_id": "image_05",
+  "related_event_id": "event_1786",
+  "document_metadata": {
+    "document_type": "telecom_bill",
+    "document_date": "2026-02-06",
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "amount_due_till_date", "value": 704.05, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 704.05,
+    "chosen_label": "amount_due_till_date",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "Airtel telecom bill. Amount Due Till 06-Feb-2026 clearly printed as INR 704.05."
+  },
+  "extraction_status": "ok"
+}

@@ -1,0 +1,24 @@
+{
+  "image_id": "image_15",
+  "related_event_id": "event_9806",
+  "document_metadata": {
+    "document_type": "airline_gst_invoice",
+    "document_date": "2026-06-07",
+    "currency": "INR",
+    "invoice_or_receipt_number": "UC83TT"
+  },
+  "extracted_candidates": [
+    {"label": "air_travel_and_charges_total_incl_taxes", "value": 9580.0, "currency": "INR"},
+    {"label": "airport_charges", "value": 388.0, "currency": "INR"},
+    {"label": "grand_total", "value": 9968.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 9968.0,
+    "chosen_label": "grand_total",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "IndiGo GST Tax Invoice. Passenger: Akarsh Jain. Flight 6E-861, DEL to BLR, 07-Jun-2026. Grand Total (all rows incl. taxes and airport charges) = INR 9,968.00."
+  },
+  "extraction_status": "ok"
+}

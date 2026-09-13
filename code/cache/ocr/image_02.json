@@ -1,0 +1,22 @@
+{
+  "image_id": "image_02",
+  "related_event_id": "event_1442",
+  "document_metadata": {
+    "document_type": "rent_receipt",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "balance_due", "value": 100000.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 100000.0,
+    "chosen_label": "balance_due",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "Rent receipt showing Balance Due of INR 1,00,000 (Indian lakh format = 100,000). This is the outstanding rent amount to be paid."
+  },
+  "extraction_status": "ok"
+}

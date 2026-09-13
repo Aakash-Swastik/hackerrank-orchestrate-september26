@@ -1,0 +1,25 @@
+{
+  "image_id": "image_16",
+  "related_event_id": "event_10521",
+  "document_metadata": {
+    "document_type": "ev_charging_invoice",
+    "document_date": "2026-09-03",
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "energy_charge", "value": 333.24, "currency": "INR"},
+    {"label": "cgst_9_percent", "value": 29.99, "currency": "INR"},
+    {"label": "sgst_9_percent", "value": 29.99, "currency": "INR"},
+    {"label": "total", "value": 393.22, "currency": "INR"}
+  ],
+  "amount_in_words": "Three Hundred and Ninety Three Rupees And Twenty Two Paise Only",
+  "selection": {
+    "chosen_amount": 393.22,
+    "chosen_label": "total",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "EV charging invoice. Station: Krishnagiri (KFC/Burger King area), Tamil Nadu. HSN 996749, 12.58 kWh at 26.49/kWh, charged 03-Sep-2026. Total including CGST+SGST = INR 393.22. Amount confirmed in words: Three Hundred and Ninety Three Rupees And Twenty Two Paise Only. Payment Method: WALLET."
+  },
+  "extraction_status": "ok"
+}

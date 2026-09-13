@@ -1,0 +1,5 @@
+{
+  "status": "needs_review",
+  "chosen_amount": null,
+  "notes": "No AWS_BEARER_TOKEN_BEDROCK set"
+}

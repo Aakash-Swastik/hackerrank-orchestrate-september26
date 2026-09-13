@@ -1,0 +1,22 @@
+{
+  "image_id": "image_11",
+  "related_event_id": "event_6859",
+  "document_metadata": {
+    "document_type": "hospital_provisional_bill",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "balance", "value": 3650.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 3650.0,
+    "chosen_label": "balance",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "Jeevan Hospital Provisional Bill. Balance = Amount Payable minus Amount Paid = INR 3,650.00. This is the outstanding amount still owed."
+  },
+  "extraction_status": "ok"
+}

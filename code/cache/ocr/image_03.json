@@ -1,0 +1,22 @@
+{
+  "image_id": "image_03",
+  "related_event_id": "event_1545",
+  "document_metadata": {
+    "document_type": "retail_receipt",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "net_amount", "value": 41272.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 41272.0,
+    "chosen_label": "net_amount",
+    "currency": "INR",
+    "confidence_score": 0.98,
+    "selection_reasoning": "RIDDHI SIDDHI retail receipt (dry nuts/grocery). Net amount payable printed as INR 41,272."
+  },
+  "extraction_status": "ok"
+}

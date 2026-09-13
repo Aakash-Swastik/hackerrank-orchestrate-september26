@@ -1,0 +1,22 @@
+{
+  "image_id": "image_12",
+  "related_event_id": "event_7307",
+  "document_metadata": {
+    "document_type": "taxi_receipt",
+    "document_date": null,
+    "currency": "USD",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "total", "value": 33.50, "currency": "USD"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 33.50,
+    "chosen_label": "total",
+    "currency": "USD",
+    "confidence_score": 0.99,
+    "selection_reasoning": "CityCab taxi receipt. Total fare printed as USD 33.50."
+  },
+  "extraction_status": "ok"
+}

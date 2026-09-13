@@ -1,0 +1,22 @@
+{
+  "image_id": "image_14",
+  "related_event_id": "event_9421",
+  "document_metadata": {
+    "document_type": "handwritten_pharmacy_receipt",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "TOTAL", "value": 4593.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 4593.0,
+    "chosen_label": "TOTAL",
+    "currency": "INR",
+    "confidence_score": 0.97,
+    "selection_reasoning": "Handwritten pharmacy receipt. TOTAL written at bottom of receipt as INR 4,593."
+  },
+  "extraction_status": "ok"
+}

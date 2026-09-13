@@ -1,0 +1,22 @@
+{
+  "image_id": "image_07",
+  "related_event_id": "event_3231",
+  "document_metadata": {
+    "document_type": "restaurant_invoice",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "grand_total", "value": 8528.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 8528.0,
+    "chosen_label": "grand_total",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "Restaurant Tax Invoice from Nagarjuna 1984. Grand Total printed as INR 8,528."
+  },
+  "extraction_status": "ok"
+}

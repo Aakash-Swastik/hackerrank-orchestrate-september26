@@ -1,0 +1,22 @@
+{
+  "image_id": "image_09",
+  "related_event_id": "event_5170",
+  "document_metadata": {
+    "document_type": "water_bill_receipt",
+    "document_date": null,
+    "currency": "INR",
+    "invoice_or_receipt_number": null
+  },
+  "extracted_candidates": [
+    {"label": "total_amount_received", "value": 723.0, "currency": "INR"}
+  ],
+  "amount_in_words": null,
+  "selection": {
+    "chosen_amount": 723.0,
+    "chosen_label": "total_amount_received",
+    "currency": "INR",
+    "confidence_score": 0.99,
+    "selection_reasoning": "Water Bill Receipt via Indian Bank/Paytm. Total Amount Received printed as INR 723.00."
+  },
+  "extraction_status": "ok"
+}
